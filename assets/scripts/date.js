@@ -1,5 +1,4 @@
-let date = new date(); {
-    
+let date = new date(); {  
 }
 
 push.date();
