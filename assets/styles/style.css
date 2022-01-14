@@ -37,7 +37,7 @@ li {
 
 /* footer */
 footer {
-    background-color: rgb(254, 203, 0);
+    background-color: black;
     bottom: 0;
     position: fixed;
     width: 100%;
@@ -49,5 +49,4 @@ footer {
 footer a {
     font-family: Myriad Pro,sans-serif;
     font-size: 14px;
-    color: black;
 }
