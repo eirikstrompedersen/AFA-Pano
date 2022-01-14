@@ -16,7 +16,10 @@ h1 {
     font-weight: bold;
     font-size: 70px;
     text-align: center;
+}
 
+.site-content {
+    padding-top: 60px;
 }
 
 h2 {
