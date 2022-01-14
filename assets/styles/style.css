@@ -42,7 +42,7 @@ footer {
     text-align: center;
 }
 
-footer p, footer a {
+footer a {
     font-family: Myriad Pro,sans-serif;
     font-size: 14px;
     color: black;
