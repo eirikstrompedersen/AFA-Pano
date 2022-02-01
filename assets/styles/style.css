@@ -15,22 +15,36 @@ h1 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     text-align: center;
+    font-size: 70px;
 }
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
     font-size: 18px;
-    color: black;
+    color: #fecb00;
     font-weight: lighter;
+    text-align: center;
+    font-size: 42px;
 }
 
 .site-content {
     padding-top: 100px;
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 10%;
 }
 
+.project-container {
+    float: left;
+    width: 30%;
+    margin-left: 18%;
+}
+
+.project-container-temp {
+    float: left;
+}
+
+/*
 .content-dropdown-left {
     background-color: #fecb00;
     padding: 8px;
@@ -51,6 +65,7 @@ h2 {
     height: 100%;
     width: 30%;
 }
+*/
 
 
 a {
@@ -60,6 +75,36 @@ a {
 
 li {
     list-style: none;
+}
+
+/* Buttons */
+
+
+.button {
+    width: 150px;
+    height: 150px;
+    background-color: #fecb00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 32px;
+    text-align: center;
+    border-radius: 25px;
+    padding-top: 50px;
+    margin: 5%;
+    float: left;
+}
+
+.button-text {
+    color: black;
+}
+
+
+/* Actions */ 
+
+.button:hover {
+    background-color: rgb(68, 68, 68);
+    border: #fecb00 solid 3px;
+    color: #fecb00;
 }
 
 /* footer */
