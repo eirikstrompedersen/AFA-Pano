@@ -21,29 +21,44 @@ h1 {
 
 h2 {
     font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 18px;
     color: #fecb00;
     font-weight: bolder;
-    text-align: center;
-    font-size: 32px;
+    width: auto;
+}
+
+.project-selector h2 {
+    color: white;
 }
 
 
 /* Page Layout */
 .site-content {
     padding-top: 100px;
-    margin-left: 15%;
-    margin-right: 10%;
 }
 
 
-.project-container {
-    float: left;
+.project-selector {
+    background-color: black;
+    color: white;
+    border-radius: 25px 25px 0 0;
     width: 30%;
-    height: 1080px;
+    display: inline-block;
+    padding: .2%;
+}
+
+.project-container-new {
+    width: 30%;
+    height: auto;
+    border: black solid 2px;
+}
+
+.project-container {
+    width: 20%;
+    height: auto;
     margin-top: 5%;
-    /* border: black solid 2px; */
+    display: inline-block;
+    border: black solid 2px;
+    border-radius: 25px;
 }
 
 .project-container-temp {
